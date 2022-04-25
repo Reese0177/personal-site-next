@@ -1,6 +1,6 @@
-.navbar{
+.navbar {
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     padding: 0 2rem;
     display: flex;
     align-items: center;
@@ -10,26 +10,30 @@
     position: fixed;
 }
 
-.navList{
+.navList {
     list-style: none;
     display: flex;
 }
 
-.navItem{
+.navItem {
     margin: 1vw;
     color: deepskyblue;
     font-size: 1.25rem;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 0.1em;
+    background-position-y: bottom;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
 
-.active{
+.navItem:hover,
+.active {
     color: white;
+    background-size: 100% 0.1em;
 }
 
-.navItem:hover{
-    color: white;
-}
-
-.title{
+.title {
     color: deepskyblue;
     text-decoration: none;
     font-size: 2rem;
