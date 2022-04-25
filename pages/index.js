@@ -12,9 +12,9 @@ const Index = (props) => {
   })
   return (
     <Layout ref={header}>
-      <section className={styles.hero}>
-        <h1 id={styles.welcome}>Hi! My name is Reese.</h1>
-        <Link to="bio" smooth={true} offset={-height} duration={500} className={styles.btn}>Learn About Me</Link>
+      <section className={styles.hero+" hero"}>
+        <h1 id="title">Hi! My name is Reese.</h1>
+        <Link to="bio" smooth={true} offset={-height} duration={500} className="btn">Learn About Me</Link>
       </section>
       <section className={styles.about} id="bio">
         <div id={styles.timeline}>
