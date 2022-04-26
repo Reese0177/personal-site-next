@@ -28,29 +28,8 @@
     transform: scale(1.025);
 }
 
-.imgWrap{
-    height: 243px;
-    background-size: contain;
-}
-
-#td{
-    background-image: url('../images/td.png');
-}
-
-#el{
-    background-image: url('../images/el.png');
-}
-
-#rs{
-    background-image: url('../images/rs.png');
-}
-
 @media screen and (max-width: 500px) {
     .item{
         width: 90vw;
-    }
-    .imgWrap{
-        height: 44vw;
-        background-size: contain;
     }
 }
