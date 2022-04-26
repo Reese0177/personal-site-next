@@ -1,11 +1,13 @@
-import Layout from '../components/Layout'; import styles from '../styles/portfolio.module.css';
-
+import Layout from '../components/Layout';
+import styles from '../styles/portfolio.module.css';
 import el from '../images/el.png';
 import rs from '../images/rs.png';
-import td from '../images/td.png'; import { Link } from "react-scroll";
+import td from '../images/td.png';
+import bg from '../images/Windmill.JPG';
+import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
-
 import Image from 'next/image';
+
 const Index = (props) => {
   const [height, setHeight] = useState(0)
   const header = useRef(null)
@@ -16,7 +18,7 @@ const Index = (props) => {
 
   return (
     <Layout ref={header}>
-      <section className={styles.hero + " hero"}>
+      <section className="hero" style={{backgroundImage: `url(${bg.src})`}} >
         <h1 id="title">My Portfolio</h1>
         <Link to="view" smooth={true} offset={-height} duration={500} className="btn">View</Link>
       </section>

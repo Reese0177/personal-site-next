@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import styles from '../styles/resume.module.css';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
+import bg from '../images/Golf.jpg';
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
@@ -13,7 +14,7 @@ const Index = (props) => {
 
   return (
     <Layout ref={header}>
-      <section className={styles.hero + " hero"}>
+      <section className="hero" style={{backgroundImage: `url(${bg.src})`}} >
         <h1 id="title">My Resume</h1>
         <Link to="view" smooth={true} offset={-height} duration={500} className="btn">View</Link>
       </section>

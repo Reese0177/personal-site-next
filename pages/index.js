@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import styles from '../styles/index.module.css';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
+import bg from '../images/Nashville.JPG';
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
@@ -12,7 +13,7 @@ const Index = (props) => {
   }, [])
   return (
     <Layout ref={header}>
-      <section className={styles.hero+" hero"}>
+      <section className="hero" style={{backgroundImage: `url(${bg.src})`}} >
         <h1 id="title">Hi! My name is Reese.</h1>
         <Link to="bio" smooth={true} offset={-height} duration={500} className="btn">Learn About Me</Link>
       </section>

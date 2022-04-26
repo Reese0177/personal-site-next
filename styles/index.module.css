@@ -1,7 +1,3 @@
-.hero{
-    background-image: url("../images/Nashville.JPG");
-}
-
 #bio{
     display: flex;
     flex-direction: column;
