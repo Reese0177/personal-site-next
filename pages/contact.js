@@ -9,12 +9,12 @@ const Index = (props) => {
 
   useEffect(() => {
     setHeight(header.current.clientHeight)
-  })
+  }, [])
 
   return (
     <Layout ref={header}>
       <section className={styles.hero + " hero"}>
-        <h1 id="title">Let's Get in Touch</h1>
+        <h1 id="title">Let&apos;s Get in Touch</h1>
         <Link to="view" smooth={true} offset={-height} duration={500} className="btn">Do it!</Link>
       </section>
       <section className={styles.contact} id="view">
@@ -24,6 +24,7 @@ const Index = (props) => {
             method="POST"
             className={styles.form}
             target="_blank"
+            rel="noreferrer"
           >
             <h2>Contact Me</h2>
             <input type="hidden" name="_subject" value="Contact request from personal site" />

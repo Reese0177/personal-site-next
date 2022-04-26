@@ -40,6 +40,10 @@
     font-size: 2rem;
 }
 
+.title:hover{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
     .title{
         display: none;

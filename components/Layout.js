@@ -9,7 +9,7 @@ const Layout = React.forwardRef((props, ref) => {
 
     useEffect(() => {
         setHeight(ref.current.clientHeight)
-    })
+    }, [ref])
     return (
         <div>
             <Head>
@@ -23,5 +23,5 @@ const Layout = React.forwardRef((props, ref) => {
         </div>
     );
 });
-
+Layout.displayName = "Layout";
 export default Layout;

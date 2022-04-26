@@ -9,7 +9,7 @@ const Header = React.forwardRef((props, ref) => {
     return (
         <header>
             <div className={styles.navbar} ref={ref}>
-                <a href="/" className={styles.title}>Reese Gosain</a>
+                <Link href="/"><div className={styles.title}>Reese Gosain</div></Link>
                 <nav className={styles.nav}>
                     <ul className={styles.navList}>
                         <li className={(router.pathname === "/" ? styles.active + " " : "") + styles.navItem}>
@@ -30,5 +30,5 @@ const Header = React.forwardRef((props, ref) => {
         </header>
     );
 });
-
+Header.displayName = "Header";
 export default Header;
