@@ -1,0 +1,13 @@
+
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 2vw;
+}
+
+.icon{
+    margin: 0 .5vw;
+}

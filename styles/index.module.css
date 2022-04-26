@@ -1,9 +1,5 @@
 .hero{
-    background-image: url("../images/DJI_0005.JPG");
-}
-
-.about{
-    margin-bottom: 2rem;
+    background-image: url("../images/Nashville.JPG");
 }
 
 #bio{
@@ -17,6 +13,7 @@
     font-size: 3rem;
 }
 
-.text{
-    
+.column{
+    width: 30vw;
+    padding: 1.5vw;
 }
