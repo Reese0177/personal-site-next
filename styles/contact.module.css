@@ -1,0 +1,38 @@
+.hero {
+    background-image: url("../images/Florida.jpg")
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: deepskyblue;
+    margin: 2vh 20vw;
+    padding: 2vh 3vw;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.form *{
+    margin: 1vh 0;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1vh 1vw;
+}
+
+.form h2{
+    color: white;
+    font-size: 4vw;
+}
+
+.form textarea{
+    height: 15vh;
+
+}
+
+.form button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}

@@ -21,6 +21,9 @@ const Header = React.forwardRef((props, ref) => {
                         <li className={(router.pathname === "/resume" ? styles.active + " " : "") + styles.navItem}>
                             <Link href="/resume">Resume</Link>
                         </li>
+                        <li className={(router.pathname === "/contact" ? styles.active + " " : "") + styles.navItem}>
+                            <Link href="/contact">Contact Me</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
