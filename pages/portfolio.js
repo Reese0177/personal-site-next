@@ -12,7 +12,7 @@ const Index = (props) => {
 
   useEffect(() => {
     setHeight(header.current.clientHeight)
-  }), []
+  }, [])
 
   return (
     <Layout ref={header}>
