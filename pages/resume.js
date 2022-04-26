@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import styles from '../styles/resume.module.css';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
-import bg from '../images/Golf.jpg';
+import bg from '../images/Florida.jpg';
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
