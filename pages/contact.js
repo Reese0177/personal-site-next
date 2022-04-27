@@ -3,6 +3,7 @@ import styles from '../styles/contact.module.css';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
 import bg from '../images/Florida.jpg';
+import TextareaAutosize from 'react-textarea-autosize';
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
@@ -31,7 +32,7 @@ const Index = (props) => {
             <input type="hidden" name="_subject" value="Contact request from personal site" />
             <input type="text" name="name" placeholder="Your Name" required/>
             <input type="email" name="email" placeholder="Your Email" required/>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+            <TextareaAutosize minRows={10} className={styles.textarea} name="message" placeholder="Your Message" required></TextareaAutosize>
             <button type="submit">Send</button>
           </form>
         </div>

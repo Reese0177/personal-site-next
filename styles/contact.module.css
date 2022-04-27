@@ -23,9 +23,9 @@
     font-size: 4vw;
 }
 
-.form textarea{
+.textarea{
     height: 15vh;
-
+    resize: none;
 }
 
 .form button:hover {
