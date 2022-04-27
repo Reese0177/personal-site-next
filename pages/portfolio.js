@@ -29,7 +29,7 @@ const Index = (props) => {
               <div className={styles.imgWrap}>
                 <Image src={td} alt="Tatted Dragons Website Photo" />
               </div>
-              <h2 className="columnHeader">Tatted Dragons</h2>
+              <h2 className={styles.itemHeader}>Tatted Dragons</h2>
             </div>
           </a>
           <a href="https://reese0177.github.io/swe_us_2022_landing_page_starter/" target="_blank" rel="noreferrer">
@@ -37,7 +37,7 @@ const Index = (props) => {
               <div className={styles.imgWrap}>
                 <Image src={el} alt="EdgeLedger Project Photo" />
               </div>
-              <h2 className="columnHeader">EdgeLedger</h2>
+              <h2 className={styles.itemHeader}>EdgeLedger</h2>
             </div>
           </a>
           <a href="https://test.d3sdcani5maaj3.amplifyapp.com/" target="_blank" rel="noreferrer">
@@ -45,7 +45,7 @@ const Index = (props) => {
               <div className={styles.imgWrap}>
                 <Image src={rs} alt="React Store Project Photo" />
               </div>
-              <h2 className="columnHeader">React Store</h2>
+              <h2 className={styles.itemHeader}>React Store</h2>
             </div>
           </a>
         </div>
