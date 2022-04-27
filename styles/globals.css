@@ -64,6 +64,7 @@ a {
 .columnHeader{
   color: deepskyblue;
   font-size: 2rem;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 500px) {
