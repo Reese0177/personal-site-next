@@ -1,8 +1,8 @@
 import Layout from '../components/Layout';
 import styles from '../styles/portfolio.module.css';
-import el from '../images/el.png';
+import el from '../images/el.PNG';
 import rs from '../images/rs.png';
-import td from '../images/td.png';
+import td from '../images/td.PNG';
 import bg from '../images/DJI_0011.JPG';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
