@@ -55,11 +55,11 @@ const Index = (props) => {
                 </li>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>College</div>
-                  <p className={styles.text}>I was accepted to Vanderbilt University in Nashville, TN to study computer science. Here, I began learning C++ and discrete structures before deciding the college path wasn&apos;t for me. </p>
+                  <p className={styles.text}>I was accepted to Vanderbilt University in Nashville, TN to study computer science. Here, I began learning C++ and discrete structures before taking a leave of absence and pursuing apprenticeships.</p>
                 </li>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>High School</div>
-                  <p className={styles.text}>I graduated from Geneva Community High School in Geneva, IL in the top 5% of my class. In my time there, I took all the computer science classes offered, and received a 5 on my Computer Science A AP exam. I also finished all the calculus that was offered by the end of my junior year, receiving a 5 on my Calculus BC AP exam. I also took many other stem courses, including 2 years of chemistry, 2 years of physics, and biology. I also took 3 semesters of technology support internship, in which I worked with my school&apos;s IT department and helped teach new students.</p>
+                  <p className={styles.text}>I graduated from Geneva Community High School in Geneva, IL in the top 5% of my class. In my time there, I took all the computer science classes offered, and received a 5 on my Computer Science A AP exam. I also finished all the calculus that was offered by the end of my junior year, receiving a 5 on my Calculus BC AP exam. I also received perfect scores on both the SAT and ACT. I took many other stem courses as well, including 2 years of chemistry, 2 years of physics, and biology. I also took 3 semesters of technology support internship, in which I worked with my school&apos;s IT department and helped teach new students.</p>
                 </li>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>Self-Teaching</div>
