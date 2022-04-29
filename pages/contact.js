@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
 import bg from '../images/Florida.jpg';
 import TextareaAutosize from 'react-textarea-autosize';
-import useAutoFocus from '../hooks/useAutoFocus';
+import handleViewport from 'react-in-viewport';
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
@@ -13,9 +13,14 @@ const Index = (props) => {
   useEffect(() => {
     setHeight(header.current.clientHeight)
   }, [])
-
-  const focusedInput = useAutoFocus();
-
+  const Block = (props) => {
+    const { forwardedRef } = props;
+    return (
+      <h2 ref={forwardedRef}>Contact Me</h2>
+    );
+  };
+  const focusedInput = useRef(null);
+  const ViewportBlock = handleViewport(Block);
   return (
     <Layout ref={header}>
       <section className="hero" style={{ backgroundImage: `url(${bg.src})` }} >
@@ -31,7 +36,7 @@ const Index = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Contact Me</h2>
+            <ViewportBlock onEnterViewport={() => focusedInput.current.focus()}/>
             <input type="hidden" name="_subject" value="Contact request from personal site" />
             <input type="text" name="name" placeholder="Your Name" ref={focusedInput} required />
             <input type="email" name="email" placeholder="Your Email" required />

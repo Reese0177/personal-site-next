@@ -14,6 +14,7 @@ const Layout = React.forwardRef((props, ref) => {
         <div>
             <Head>
                 <title>Reese Gosain</title>
+                <meta name="description" content="Reese Gosain's Personal Website"/>
             </Head>
             <Header ref={ref} />
             <div className="container">
