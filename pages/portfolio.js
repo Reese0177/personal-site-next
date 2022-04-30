@@ -23,7 +23,7 @@ const Index = (props) => {
       <section className={styles.portfolio} id="view">
         <div className={styles.container}>
           {items.map(portfolioItem =>
-            <a href={portfolioItem.href} target="_blank" rel="noreferrer">
+            <a href={portfolioItem.href} key={portfolioItem.id} target="_blank" rel="noreferrer">
               <div className={styles.item}>
                 <div className={styles.imgWrap}>
                   <Image src={portfolioItem.image[portfolioItem.imgName]} alt={portfolioItem.alt} />

@@ -3,7 +3,8 @@ import rs from '../images/rs.png';
 import td from '../images/td.PNG';
 
 const items = [
-    {
+    {   
+        id: 0,
         title: "Tatted Dragons",
         href: "https://dki0lqd9ti84f.cloudfront.net/",
         image: {td},
@@ -11,6 +12,7 @@ const items = [
         imgName: "td"
     },
     {
+        id: 1,
         title: "EdgeLedger",
         href: "https://reese0177.github.io/swe_us_2022_landing_page_starter/",
         image: {el},
@@ -18,6 +20,7 @@ const items = [
         imgName: "el"
     },
     {
+        id: 2,
         title: "React Store",
         href: "https://test.d3sdcani5maaj3.amplifyapp.com/",
         image: {rs},

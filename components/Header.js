@@ -9,7 +9,7 @@ const Header = React.forwardRef((props, ref) => {
     return (
         <header>
             <div className={styles.navbar} ref={ref}>
-                <Link href="/"><div className={styles.title}>Reese Gosain</div></Link>
+                <Link href="/" passHref><div className={styles.title}>Reese Gosain</div></Link>
                 <nav className={styles.nav}>
                     <ul className={styles.navList}>
                         <li className={(router.pathname === "/" ? styles.active + " " : "") + styles.navItem}>
