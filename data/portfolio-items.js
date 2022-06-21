@@ -1,6 +1,7 @@
 import el from '../images/el.PNG';
 import rs from '../images/rs.png';
 import td from '../images/td.PNG';
+import gt from '../images/gt.PNG';
 
 const items = [
     {   
@@ -26,6 +27,14 @@ const items = [
         image: {rs},
         alt: "React Store Project",
         imgName: "rs"
+    },
+    {
+        id: 3,
+        title: "Gas Tracker",
+        href: "https://test.d3sdcani5maaj3.amplifyapp.com/",
+        image: {gt},
+        alt: "Gas Tracker",
+        imgName: "gt"
     }
 ]
 
