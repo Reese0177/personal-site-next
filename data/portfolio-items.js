@@ -22,19 +22,19 @@ const items = [
     },
     {
         id: 2,
+        title: "Gas Tracker",
+        href: "https://gas-tracker-project.herokuapp.com/",
+        image: {gt},
+        alt: "Gas Tracker",
+        imgName: "gt"
+    },
+    {
+        id: 3,
         title: "React Store",
         href: "https://test.d3sdcani5maaj3.amplifyapp.com/",
         image: {rs},
         alt: "React Store Project",
         imgName: "rs"
-    },
-    {
-        id: 3,
-        title: "Gas Tracker",
-        href: "https://test.d3sdcani5maaj3.amplifyapp.com/",
-        image: {gt},
-        alt: "Gas Tracker",
-        imgName: "gt"
     }
 ]
 
