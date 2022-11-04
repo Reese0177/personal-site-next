@@ -26,7 +26,7 @@ const Index = (props) => {
               <ul className={styles.timeline}>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>ConvergeOne (Mar 2022 - )</div>
-                  <p className={styles.text}>Started as a Software Developer Apprentice. Currently in training with Multiverse in Software Engineering Bootcamp.</p>
+                  <p className={styles.text}>Currently employed as a Software Developer Apprentice where I work with PHP, SQL, and JavaScript to build internal tools for quoting and reporting.</p>
                 </li>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>Delta Building Technologies (Aug 2019 - Dec 2019)</div>
@@ -51,7 +51,7 @@ const Index = (props) => {
               <ul className={styles.timeline}>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>Bootcamp</div>
-                  <p className={styles.text}>Currently in Software Engineering Bootcamp with Multiverse as I prepare for my job with ConvergeOne. I will cover JS, React, HTML, CSS, Git, Node.js, NoSQL, and PHP. So far, I have had experience with all of the topics we&apos;ve covered before starting the bootcamp, so I have spent most of my time helping and teaching others.</p>
+                  <p className={styles.text}>Completed Software Engineering Bootcamp with Multiverse before starting my job with ConvergeOne. I covered JS, React, HTML, CSS, Git, Node.js, and PHP. I already had experience with all of the topics we covered before starting the bootcamp, so I spent most of my time helping and teaching others.</p>
                 </li>
                 <li className={styles.timelineItem}>
                   <div className={styles.time}>College</div>

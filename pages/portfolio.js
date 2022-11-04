@@ -22,7 +22,7 @@ const Index = (props) => {
       </section>
       <section className={styles.portfolio} id="view">
         <div className={styles.container}>
-          {items.map(portfolioItem =>
+          {/* {items.map(portfolioItem =>
             <a href={portfolioItem.href} key={portfolioItem.id} target="_blank" rel="noreferrer">
               <div className={styles.item}>
                 <div className={styles.imgWrap}>
@@ -31,7 +31,8 @@ const Index = (props) => {
                 <h2 className={styles.itemHeader}>{portfolioItem.title}</h2>
               </div>
             </a>
-          )}
+          )} */}
+          <strong>Due to the discontinuation of free tiers, this section is currently undergoing maintenance.</strong>
         </div>
       </section>
     </Layout>
