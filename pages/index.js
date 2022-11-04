@@ -28,9 +28,9 @@ const Index = (props) => {
             </div>
             <div className={styles.column + " column"}>
               <h2 className="columnHeader">Present</h2>
-              <p>Currently, I am a Software Developer Apprentice at ConvergeOne, which I found through Multiverse. After completing Multiverse's 12-week software engineering bootcamp, I started working with ConvergeOne using PHP, SQL, and JavaScript.</p>
+              <p>Currently, I am a Software Developer Apprentice at ConvergeOne, which I found through Multiverse. After completing Multiverse&apos;s 12-week software engineering bootcamp, I started working with ConvergeOne using PHP, SQL, and JavaScript.</p>
               <p>On the job, I frequently implement new features, refresh old components, and fix bugs. My biggest project so far has been creating a full-stack reporting system, enabling internal end-users to create dynamic reports using various filters and fields.</p>
-              <p>I've also had the chance to continue developing soft skills by: communicating with other developer and non-technical teammates, attending daily scrum meetings, and working with other developers to implement new features.</p>
+              <p>I&apos;ve also had the chance to continue developing soft skills by: communicating with other developer and non-technical teammates, attending daily scrum meetings, and working with other developers to implement new features.</p>
             </div>
             <div className={styles.column + " column"}>
               <h2 className="columnHeader">Future</h2>
