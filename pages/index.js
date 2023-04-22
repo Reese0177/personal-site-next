@@ -31,12 +31,13 @@ const Index = (props) => {
               <p>Currently, I am a Software Developer Apprentice at ConvergeOne, which I found through Multiverse. After completing Multiverse&apos;s 12-week software engineering bootcamp, I started working with ConvergeOne using PHP, SQL, and JavaScript.</p>
               <p>On the job, I frequently implement new features, refresh old components, and fix bugs. My biggest project so far has been creating a full-stack reporting system, enabling internal end-users to create dynamic reports using various filters and fields.</p>
               <p>I&apos;ve also had the chance to continue developing soft skills by: communicating with other developer and non-technical teammates, attending daily scrum meetings, and working with other developers to implement new features.</p>
+              <p>Currently, I enjoying living in the Nashville area, which I recently moved back to with my girlfriend.</p>
             </div>
             <div className={styles.column + " column"}>
               <h2 className="columnHeader">Future</h2>
               <p>In the future, I hope to lead a small team of people, while also continuing to write code myself. I enjoy the work and can get lost in it at times, and I know that I would never want to give that up to manage people. This role would also allow me to help others learn, which I enjoy doing almost as much as I enjoy coding. I hope to be able to get to this position in a quicker fashion than most, because I believe I have very strong skills and am excited to be able to showcase them in the coming years.</p>
               <p>Ideally, this would be in an environment that will force me to keep learning new skills and technologies, in a way that keeps me motivated. I love being able to see the product of my work, so I hope to work on something consumer-facing.</p>
-              <p>In terms of more personal goals, I plan on moving to San Antonio, TX so that my girlfriend can attend culinary school for baking and pastries. After her school, I want to move back to an area like Nashville and be able to buy my own home.</p>
+              <p>In terms of more personal goals, I am hoping to buy my first house in the Nashville area once my current lease is up.</p>
             </div>
           </div>
         </div>

@@ -5,6 +5,8 @@ import bg from '../images/DJI_0011.JPG';
 import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
+import {SocialIcon} from 'react-social-icons';
+
 
 const Index = (props) => {
   const [height, setHeight] = useState(0)
@@ -22,17 +24,20 @@ const Index = (props) => {
       </section>
       <section className={styles.portfolio} id="view">
         <div className={styles.container}>
-          {/* {items.map(portfolioItem =>
+          {items.map(portfolioItem =>
             <a href={portfolioItem.href} key={portfolioItem.id} target="_blank" rel="noreferrer">
               <div className={styles.item}>
                 <div className={styles.imgWrap}>
                   <Image src={portfolioItem.image[portfolioItem.imgName]} alt={portfolioItem.alt} />
                 </div>
                 <h2 className={styles.itemHeader}>{portfolioItem.title}</h2>
+                <p>{portfolioItem.desc}</p>
+                {portfolioItem.git && <div className={styles.iconDiv}>
+                  <SocialIcon className={styles.icon} url={portfolioItem.git} target="_blank" rel="noreferrer"/>
+                </div>}
               </div>
             </a>
-          )} */}
-          <strong>Due to the discontinuation of free tiers, this section is currently undergoing maintenance.</strong>
+          )}
         </div>
       </section>
     </Layout>
