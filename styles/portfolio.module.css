@@ -45,6 +45,10 @@
     gap: 1rem;
 }
 
+.desc {
+    font-size: larger;
+}
+
 @media screen and (max-width: 500px) {
     .item{
         width: 90vw;

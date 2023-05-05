@@ -17,11 +17,10 @@ const items = [
     {
         id: 1,
         title: "Multiverse Messenger",
-        href: "https://mm.reesegosa.in/",
         image: {mm},
         alt: 'Multiverse Messenger Website',
         imgName: "mm",
-        desc: "Multiverse Messenger allows users to create an account and log in, send messages, create groups, add/remove users from groups, and delete groups. The messages are instant, and the website has functioning authentication to ensure privacy of user messages.",
+        desc: "Multiverse Messenger allows users to create an account and log in, send messages, create groups, add/remove users from groups, and delete groups. The messages are instant, and the website has functioning authentication to ensure privacy of user messages. Unfortunately, the deployed version is no longer functional due to the expiration of a free trial we were using for the backend. However, the code is available on Github!",
         git: 'https://github.com/Multiverse-Messenger/Multiverse-Messenger'
     },
     {

@@ -25,13 +25,13 @@ const Index = (props) => {
       <section className={styles.portfolio} id="view">
         <div className={styles.container}>
           {items.map(portfolioItem =>
-            <a href={portfolioItem.href} key={portfolioItem.id} target="_blank" rel="noreferrer">
+            <a href={portfolioItem.href ?? null} key={portfolioItem.id} target="_blank" rel="noreferrer">
               <div className={styles.item}>
                 <div className={styles.imgWrap}>
                   <Image src={portfolioItem.image[portfolioItem.imgName]} alt={portfolioItem.alt} />
                 </div>
                 <h2 className={styles.itemHeader}>{portfolioItem.title}</h2>
-                <p>{portfolioItem.desc}</p>
+                <p className={styles.desc}>{portfolioItem.desc}</p>
                 {portfolioItem.git && <div className={styles.iconDiv}>
                   <SocialIcon className={styles.icon} url={portfolioItem.git} target="_blank" rel="noreferrer"/>
                 </div>}
