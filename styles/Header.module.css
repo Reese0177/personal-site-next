@@ -27,6 +27,7 @@
     background-position-x: 50%;
     background-repeat: no-repeat;
     transition: background-size 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .navItem:hover,
@@ -39,9 +40,6 @@
     color: deepskyblue;
     text-decoration: none;
     font-size: 2rem;
-}
-
-.title:hover{
     cursor: pointer;
 }
 
