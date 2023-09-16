@@ -4,11 +4,6 @@
     align-items: center;
 }
 
-.subheader{
-    color: deepskyblue;
-    font-size: 3rem;
-}
-
 .column{
     width: 30vw;
     padding: 1.5vw;

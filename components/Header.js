@@ -1,28 +1,26 @@
 import styles from '../styles/Header.module.css';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { Link } from "react-scroll";
 import React from 'react';
 
 
-const Header = React.forwardRef((props, ref) => {
-    const router = useRouter();
+const Header = React.forwardRef(({activePage}, ref) => {
     return (
         <header>
             <div className={styles.navbar} ref={ref}>
-                <Link href="/" passHref><div className={styles.title}>Reese Gosain</div></Link>
+                <Link to="intro-hero" smooth={true} duration={500}><div className={styles.title}>Reese Gosain</div></Link>
                 <nav className={styles.nav}>
                     <ul className={styles.navList}>
-                        <li className={(router.pathname === "/" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/">About Me</Link>
+                        <li className={(activePage === "" ? styles.active + " " : "") + styles.navItem}>
+                            <Link to="intro-hero" smooth={true} duration={500}>About Me</Link>
                         </li>
-                        <li className={(router.pathname === "/portfolio" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/portfolio">Portfolio</Link>
+                        <li className={(activePage === "portfolio" ? styles.active + " " : "") + styles.navItem}>
+                            <Link to="portfolio-hero" smooth={true} duration={500}>Portfolio</Link>
                         </li>
-                        <li className={(router.pathname === "/resume" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/resume">Resume</Link>
+                        <li className={(activePage === "resume" ? styles.active + " " : "") + styles.navItem}>
+                            <Link to="resume-hero" smooth={true} duration={500}>Resume</Link>
                         </li>
-                        <li className={(router.pathname === "/contact" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/contact">Contact Me</Link>
+                        <li className={(activePage === "contact" ? styles.active + " " : "") + styles.navItem}>
+                            <Link to="contact-hero" smooth={true} duration={500}>Contact Me</Link>
                         </li>
                     </ul>
                 </nav>
