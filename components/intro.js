@@ -23,13 +23,13 @@ const Intro = ({height}) => {
               <h2 className="columnHeader">Present</h2>
               <p>Currently, I am a Software Developer II at ConvergeOne working to build full-stack internal tools, such as for quoting and reporting. On the job, I frequently implement new features, refresh old components, and fix bugs. My biggest project so far has been creating a full-stack reporting system, enabling internal end-users to create dynamic reports using various filters and fields.</p>
               <p>I&apos;ve also had the chance to continue developing soft skills by communicating with cross-functional teammates, attending daily scrum meetings, and working with other developers to implement new features. I&apos;ve also had a tremendous opportunity for learning. Working on a small team, especially starting as an apprentice, has allowed me to learn new skills and refine old ones in a multitude of areas, including deployment, PHP and frameworks like CodeIgniter, SQL, and jQuery.</p>
-              <p>Currently, I&apos;m living in the Nashville area, which I recently moved back to with my girlfriend, Juniper, our cats, Sage and Oliver, and our dog, Poppy. I've been enjoying going to tech meet-ups in the city, helping Juniper establish her own cottage goods bakery, and hanging out with friends at our apartment pool.</p>
+              <p>Currently, I&apos;m living in the Nashville area, which I recently moved back to with my girlfriend, Juniper, our cats, Sage and Oliver, and our dog, Poppy. I&apos;ve been enjoying going to tech meet-ups in the city, helping Juniper establish her own cottage goods bakery, and hanging out with friends at our apartment pool.</p>
             </div>
             <div className={styles.column + " column"}>
               <h2 className="columnHeader">Future</h2>
               <p>In the future, I hope to lead a small team of people, while also continuing to write code myself. I enjoy the work and can get lost in it at times, and I know that I would never want to give that up to manage people. This role would also allow me to help others learn, which I enjoy doing almost as much as I enjoy coding. I hope to be able to get to this position in a quicker fashion than most, because I believe I have very strong skills and am excited to be able to showcase them in the coming years.</p>
               <p>Ideally, this would be in an environment that will force me to keep learning new skills and technologies, in a way that keeps me motivated. I love being able to see the product of my work, so I hope to work on something consumer-facing.</p>
-              <p>In terms of more personal goals, I am hoping to buy my first house in the Nashville area once my current lease is up. I've also been considering a move to Austin, TX to experience a new city and potentially get my degree.</p>
+              <p>In terms of more personal goals, I am hoping to buy my first house in the Nashville area once my current lease is up. I&apos;ve also been considering a move to Austin, TX to experience a new city and potentially get my degree.</p>
             </div>
           </div>
         </div>
